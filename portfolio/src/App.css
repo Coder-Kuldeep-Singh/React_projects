@@ -1,0 +1,106 @@
+.header-color{
+  background: #1e3c72;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2a5298, #1e3c72);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2a5298, #1e3c72); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
+}
+.landing-grid{
+  background: #141E30;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+width:100%;
+height:100%;
+text-align: center;
+
+}
+.avatar-img{
+  height:250px;
+  overflow: hidden;
+  transition: .5s;
+  
+}
+.avatar-img:hover{
+  transform:scale(1.1);
+  }
+.banner-text{
+  background: #1e3c72;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2a5298, #1e3c72);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2a5298, #1e3c72); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  opacity: .8;
+  width:75%;
+  margin:auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.banner-text h1{
+  font-size:40px;
+  font-weight: bold;
+  color:white;
+  text-align: center;
+}
+.banner-text hr{
+  border-top:5px dotted white;
+  width:50%;
+  margin:auto;
+}
+.banner-text p{
+  color:white;
+  font-size:20px;
+  padding:1em;
+}
+.social-links{ 
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin:auto;
+}
+.social-links i{
+  color:white;
+  font-size: 5em;
+  padding:8px;
+}
+.projects-grid{
+  display: flex;
+}
+.contact-body{
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top:2em;
+}
+.contact-grid{
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+ margin-bottom: 20px;
+}
+.contact-grid p{font-weight: bold;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
+.contact-grid hr{
+  border-top: 5px dotted black;
+  margin:auto;
+  width:50%;
+}
+.contact-list i {
+  font-size: 50px;
+  padding-right: 5rem;
+}
+/* resume page css */
+.resume-right-col{
+  /* background: #27221F; */
+  background: #141E30;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: white;
+padding:2em;
+}
+@media only screen and (max-width: 600px){
+  .social-links i{
+    font-size: 3em;
+  }
+}
